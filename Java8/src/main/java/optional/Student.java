@@ -9,7 +9,7 @@ public class Student {
     private int id;
     private String group = null;
 
-    public Student(int id) {
+    Student(int id) {
         this.id = id;
     }
 
@@ -18,7 +18,7 @@ public class Student {
         this.group = group;
     }
 
-    public Optional<String> getGroup() {
+    Optional<String> getGroup() {
         return Optional.ofNullable(group);
     }
 }
