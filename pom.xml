@@ -17,6 +17,7 @@
     <modules>
         <module>Java8</module>
         <module>JavaCore</module>
+        <module>Jsoup</module>
     </modules>
 
     <dependencies>
