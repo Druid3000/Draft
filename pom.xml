@@ -19,6 +19,7 @@
         <module>JavaCore</module>
         <module>Jsoup</module>
         <module>Testing</module>
+        <module>Lombok</module>
     </modules>
 
     <dependencies>
