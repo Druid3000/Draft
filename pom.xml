@@ -21,6 +21,7 @@
         <module>Testing</module>
         <module>Lombok</module>
         <module>Tasks</module>
+        <module>Patterns</module>
     </modules>
 
     <dependencies>
