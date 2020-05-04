@@ -11,6 +11,6 @@ public interface PersonRepository extends JpaRepository<Person, Integer> {
 
     @Modifying
     @Query(value = "update Person p set p.secondName = ?1 where p.personId = ?2")
-    //TODO It does not update secondName
+    //TODO It does not update secondName. See JMP2019 project for use it as an example
     void setPersonNameByPersonId(String secondName, Integer personId);
 }
