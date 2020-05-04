@@ -1,5 +1,6 @@
 package app.service;
 
+import app.exception.ResourceNotFoundException;
 import app.model.Person;
 import app.repository.PersonRepository;
 import lombok.RequiredArgsConstructor;
@@ -19,8 +20,7 @@ public class PersonService {
 
     @Transactional
     public Person findById(Integer id){
-        //TODO add custom exception
-        return personRepository.findById(id).orElse(new Person());
+        return personRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Person not found"));
     }
 
     @Transactional
