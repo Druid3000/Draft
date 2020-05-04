@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "f0738188-4651-48c8-9cb7-a087e7b16009",
+		"_postman_id": "80f7cc30-2c58-416d-80bf-e0906f2ad76f",
 		"name": "SpringBootExample",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -20,12 +20,9 @@
 					}
 				},
 				"url": {
-					"raw": "192.168.0.101:8080/person/add",
+					"raw": "localhost:8080/person/add",
 					"host": [
-						"192",
-						"168",
-						"0",
-						"101"
+						"localhost"
 					],
 					"port": "8080",
 					"path": [
@@ -42,12 +39,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "192.168.0.101:8080/person/findById/1",
+					"raw": "localhost:8080/person/findById/1",
 					"host": [
-						"192",
-						"168",
-						"0",
-						"101"
+						"localhost"
 					],
 					"port": "8080",
 					"path": [
@@ -74,12 +68,9 @@
 					}
 				},
 				"url": {
-					"raw": "192.168.0.101:8080/person/update",
+					"raw": "localhost:8080/person/update",
 					"host": [
-						"192",
-						"168",
-						"0",
-						"101"
+						"localhost"
 					],
 					"port": "8080",
 					"path": [
@@ -105,12 +96,9 @@
 					}
 				},
 				"url": {
-					"raw": "192.168.0.101:8080/person/delete",
+					"raw": "localhost:8080/person/delete",
 					"host": [
-						"192",
-						"168",
-						"0",
-						"101"
+						"localhost"
 					],
 					"port": "8080",
 					"path": [
