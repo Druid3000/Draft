@@ -11,7 +11,4 @@ public class Example1_toList {
 
         strings.forEach(System.out::println);
     }
-
-
-
 }
