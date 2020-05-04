@@ -20,7 +20,7 @@
 					}
 				},
 				"url": {
-					"raw": "192.168.0.101:8080/person/add",
+					"raw": "localhost:8080/person/add",
 					"host": [
 						"192",
 						"168",
@@ -42,7 +42,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "192.168.0.101:8080/person/findById/1",
+					"raw": "localhost:8080/person/findById/1",
 					"host": [
 						"192",
 						"168",
@@ -74,7 +74,7 @@
 					}
 				},
 				"url": {
-					"raw": "192.168.0.101:8080/person/update",
+					"raw": "localhost:8080/person/update",
 					"host": [
 						"192",
 						"168",
@@ -105,7 +105,7 @@
 					}
 				},
 				"url": {
-					"raw": "192.168.0.101:8080/person/delete",
+					"raw": "localhost:8080/person/delete",
 					"host": [
 						"192",
 						"168",
