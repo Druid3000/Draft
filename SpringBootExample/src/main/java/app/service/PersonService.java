@@ -23,9 +23,8 @@ public class PersonService {
     }
 
     @Transactional
-    public void updateById(Person person, Integer id){
-        //TODO make it like JMP2019
-        personRepository.updateById(person, id);
+    public void setPersonNameByPersonId(String secondName, Integer id){
+        personRepository.setPersonNameByPersonId(secondName, id);
     }
 
     @Transactional

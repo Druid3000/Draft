@@ -61,7 +61,7 @@ public class PersonController {
                 .age(personDto.getAge())
                 .build();
 
-        personService.updateById(person, person.getPersonId());
+        personService.setPersonNameByPersonId(person.getSecondName(), person.getPersonId());
 
         return new ResponseEntity<>(HttpStatus.OK);
     }
