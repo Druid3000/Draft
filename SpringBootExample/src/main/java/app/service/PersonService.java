@@ -18,7 +18,6 @@ public class PersonService {
         return personRepository.save(person);
     }
 
-    @Transactional
     public Person findById(Integer id){
         return personRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Person not found"));
     }
