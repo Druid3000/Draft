@@ -28,8 +28,8 @@ class PersonServiceTest {
     @Test
     void createAccount() {
         when(accountRepository.save(person)).thenReturn(person);
-        Person actualAccount = personService.add(person);
+        Person actualPerson = personService.add(person);
         verify(accountRepository, times(1)).save(person);
-        Assertions.assertEquals(person, actualAccount);
+        Assertions.assertEquals(person, actualPerson);
     }
 }
