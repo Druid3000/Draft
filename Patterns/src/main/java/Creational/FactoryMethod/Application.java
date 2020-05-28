@@ -8,10 +8,12 @@ public class Application {
 
     private static Dialog dialog;
 
+    // Приложение создаёт определённую фабрику в зависимости от
+    // конфигурации или окружения.
     private static void initialize(){
 //        String config = "Windows";
         String config = "Web";
-//
+
         if(config.equalsIgnoreCase("Windows")){
             dialog = new WindowsDialog();
         } else if(config.equalsIgnoreCase("Web")){
@@ -19,6 +21,9 @@ public class Application {
         }
     }
 
+    // Если весь остальной клиентский код работает с фабриками и
+    // продуктами только через общий интерфейс, то для него
+    // будет не важно, какая фабрика была создана изначально.
     public static void main(String[] args) {
         initialize();
         dialog.render(1,2);
