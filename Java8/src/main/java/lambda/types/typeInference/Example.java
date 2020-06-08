@@ -1,4 +1,4 @@
-package lambda.types.methodReference.typeInference;
+package lambda.types.typeInference;
 
 import lambda.types.Summator;
 
