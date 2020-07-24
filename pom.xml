@@ -29,6 +29,7 @@
         <module>Tasks</module>
         <module>Patterns</module>
         <module>SpringBootExample</module>
+        <module>SpringWebFlux</module>
     </modules>
 
     <dependencies>
