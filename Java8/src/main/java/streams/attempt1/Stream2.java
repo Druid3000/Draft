@@ -13,5 +13,6 @@ public class Stream2 {
 
         int[] i = {0,1,22};
         Arrays.stream(i).filter(x -> x <22 ).forEach(System.out::println);
+
     }
 }
