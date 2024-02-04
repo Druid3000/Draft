@@ -10,4 +10,5 @@ public class Stream1 {
                 .filter(s-> s.length()<=2)
                 .collect(Collectors.toList());
     }
+
 }
