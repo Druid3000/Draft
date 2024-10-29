@@ -10,5 +10,7 @@ public class AsListExample {
         List<String> list = Arrays.asList(stringArray);
 
         System.out.println(list);
+
+
     }
 }
